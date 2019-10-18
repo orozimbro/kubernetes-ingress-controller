@@ -55,7 +55,7 @@ $ helm install stable/kong --set ingressController.enabled=true
 ## Setup environment variables
 
 Next, we will setup an environment variable with the IP address at which
-Kong is accesssible. This will be used to actually send reqeusts into the
+Kong is accesssible. This will be used to actually send requests into the
 Kubernetes cluster.
 
 ```bash
